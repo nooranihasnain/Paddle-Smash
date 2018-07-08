@@ -13,6 +13,7 @@ TagManager:
   - P2
   - PauseButton
   - Canvas
+  - Brick
   layers:
   - Default
   - TransparentFX

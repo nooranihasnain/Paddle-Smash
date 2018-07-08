@@ -6,14 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/ModeMenu.unity
+    guid: 1ee0985f8be66884483d0b6d95b3ae64
+  - enabled: 1
+    path: Assets/Scenes/Main MenuPONG.unity
     guid: d1d5102837485ba43aea0c861d900871
   - enabled: 1
-    path: Assets/Scenes/PlaygroundSinglePlayer.unity
+    path: Assets/Scenes/PlaygroundSinglePlayerPONG.unity
     guid: 103345fe10642e04eb0bf9e4418c6926
   - enabled: 1
-    path: Assets/Scenes/PlaygroundMultiplayer.unity
+    path: Assets/Scenes/PlaygroundMultiplayerPONG.unity
     guid: 84389d4ccff54664190546c3ecb63c82
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
+    path: Assets/Scenes/GameOverPONG.unity
     guid: 7e91755a7584834468d431a7ccd3906e
+  - enabled: 1
+    path: Assets/Scenes/Main MenuBREAKOUT.unity
+    guid: 001cea870540cae459ea794dbd7bc17e
+  - enabled: 1
+    path: Assets/Scenes/PlaygroundSinglePlayerBREAKOUT.unity
+    guid: a31e21587d3875d44a508b122958721f
+  - enabled: 1
+    path: Assets/Scenes/GameOverBREAKOUT.unity
+    guid: 992e7ed2fd7a21d46b5e45152f98a74b
