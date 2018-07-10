@@ -45,12 +45,12 @@ public class BallScriptBREAKOUT : MonoBehaviour {
 				Speed -= Random.Range(0.5f,2f);
 				SpeedSlow = true;
 			}
+			StartCoroutine (CamShake.ShakeCam (0.15f, 0.15f));
 		}
 		if (Col.gameObject.CompareTag ("Brick")) {
 			float X = HitFactor (transform.position, Col.transform.position, Col.collider.bounds.size.x);
 			Vector2 Direction = new Vector2 (X, -1).normalized;
 			BallRb.velocity = Direction * Speed;
 		}
-		StartCoroutine (CamShake.ShakeCam (0.15f, 0.15f));
 	}
 }

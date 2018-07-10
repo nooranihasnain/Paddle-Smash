@@ -15,6 +15,7 @@ public class UIScript : MonoBehaviour {
 	public GameObject Ball;
 	public static float SpeedAdd;
 	public static float SpeedLimit;
+	public static float AISpeed;
 	// Use this for initialization
 	void Start () {
 		
@@ -96,11 +97,13 @@ public class UIScript : MonoBehaviour {
 	{
 		SpeedAdd = 0.5f;
 		SpeedLimit = 10f;
+		AISpeed = 3f;
 		LoadLevel ("PlaygroundSinglePlayerPONG");
 	}
 
 	public void StartMediumLevel()
 	{
+		AISpeed = 8f;
 		SpeedAdd = 1.5f;
 		SpeedLimit = 12f;
 		LoadLevel ("PlaygroundSinglePlayerPONG");

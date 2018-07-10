@@ -12,7 +12,7 @@ public class AIScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		RacketSprite = GetComponent<SpriteRenderer> ();
-		Speed = 6f;
+		Speed = UIScript.AISpeed;
 	}
 
 	// Update is called once per frame
