@@ -33,6 +33,6 @@ public class ScoreManagerSinglePlayer : MonoBehaviour {
 	void LoadGameOverScreen()
 	{
 		UIScript.IsMultiplayer = false;
-		Initiate.Fade ("GameOver", Color.black, 1f);
+		Initiate.Fade ("GameOverPONG", Color.black, 1f);
 	}
 }
