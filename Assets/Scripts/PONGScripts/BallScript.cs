@@ -56,11 +56,22 @@ public class BallScript : MonoBehaviour {
 
 	void SetVeloc()
 	{
+		int RandomDirection = Random.Range (1, 3);
+		Vector2 LDirection = new Vector2 ();
+		Vector2 RDirection = new Vector2 ();
+		if (RandomDirection == 1) {
+			LDirection = (Vector2.left + Vector2.up).normalized;
+			RDirection = (Vector2.right + Vector2.up).normalized;
+		}
+		else {
+			LDirection = (Vector2.left + Vector2.down).normalized;
+			RDirection = (Vector2.right + Vector2.down).normalized;
+		}
 		if (IsLeft) {
-			BallRb.velocity = Vector2.left * Speed;
+			BallRb.velocity = LDirection * Speed;
 		} 
 		else {
-			BallRb.velocity = Vector2.right * Speed;
+			BallRb.velocity = RDirection * Speed;
 		}
 	}
 }
