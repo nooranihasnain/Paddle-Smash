@@ -4,7 +4,7 @@ using UnityEngine.PostProcessing;
 
 namespace UnityEditor.PostProcessing
 {
-    using HistogramMode = PostProcessingProfile.MonitorSettings.HistogramMode;
+	using HistogramMode = PostProcessingProfile.MonitorSettings.HistogramMode;
 
     public class HistogramMonitor : PostProcessingMonitor
     {

@@ -248,8 +248,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: E:/PS/user.keystore
+  AndroidKeyaliasName: zephyrgames
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
