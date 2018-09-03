@@ -105,7 +105,7 @@ public class UIScript : MonoBehaviour {
 
 	public void StartMediumLevel()
 	{
-		AISpeed = 8f;
+		AISpeed = 6f;
 		SpeedAdd = 1.5f;
 		SpeedLimit = 12f;
 		LoadLevel ("PlaygroundSinglePlayerPONG");

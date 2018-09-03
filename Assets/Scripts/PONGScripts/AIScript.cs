@@ -26,6 +26,9 @@ public class AIScript : MonoBehaviour {
 			Vector2 Pos = new Vector2 (transform.position.x, Mathf.Lerp (transform.position.y, Ball.transform.position.y, Step));
 			transform.position = Pos;
 		}
+		if (Score >= 6) {
+			Speed = 3f;
+		}
 	}
 	void OnCollisionEnter2D(Collision2D Col)
 	{

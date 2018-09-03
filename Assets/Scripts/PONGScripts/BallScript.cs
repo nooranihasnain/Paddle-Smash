@@ -32,14 +32,14 @@ public class BallScript : MonoBehaviour {
 			float Y = HitFactor (transform.position, Col.transform.position, Col.collider.bounds.size.y);
 			Vector2 Direction = new Vector2 (1, Y).normalized;
 			BallRb.velocity = Direction * Speed;
-			StartCoroutine (CamShake.ShakeCam (0.15f, 0.15f));
+			StartCoroutine (CamShake.ShakeCam (0.05f, 0.05f));
 		}
 		//Right racket
 		if (Col.gameObject.CompareTag ("P2")) {
 			float Y = HitFactor (transform.position, Col.transform.position, Col.collider.bounds.size.y);
 			Vector2 Direction = new Vector2 (-1, Y).normalized;
 			BallRb.velocity = Direction * Speed;
-			StartCoroutine (CamShake.ShakeCam (0.15f, 0.15f));
+			StartCoroutine (CamShake.ShakeCam (0.05f, 0.05f));
 		}
 		if (Speed < UIScript.SpeedLimit) {
 			Speed += UIScript.SpeedAdd;

@@ -248,7 +248,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: E:/PS/user.keystore
+  AndroidKeystoreName: E:/PaddleSmash/user.keystore
   AndroidKeyaliasName: zephyrgames
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
